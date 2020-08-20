@@ -23,4 +23,14 @@ print(s.idxmax())
 print(s.idxmin())
 print(s.round())
 p = str(Path(__file__).parents[2])+"/materials/fifa20.csv"
-print(pd.read_csv(p))
+fifa_names = pd.read_csv(p)
+fifa_names_series = pd.read_csv(p, usecols=["player"], squeeze= True) #extracting data series from csv file
+#output in csv file
+fifa_names.to_csv("prova.csv", index=False)
+
+fifa_names.head(10) #extract first N lines
+fifa_names.tail(10) #extract last N lines
+fifa_names_firsts = pd.read_csv(p, nrows=5) #great datasets
+
+fifa_names_series.sort_values(axis=0, ascending=False, inplace=False, kind='quicksort', ignore_index=False) #sorting by values
+fifa_names_series.sort_index(ascending=False, )
