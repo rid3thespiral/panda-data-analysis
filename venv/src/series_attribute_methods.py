@@ -40,5 +40,12 @@ print(fifa_names_series.value_counts(normalize=False, sort=True, ascending=False
 fifa_ratings = pd.read_csv(p, usecols=["rating"],squeeze=True)
 print(fifa_ratings.value_counts(bins = 5)) #divides data in subgroups
 
-#extracting values by position
-print(firstenplayers[0])
+#extracting values by position or by slicing
+print(firstenplayers[0]) #position0
+print(firstenplayers[[0,2,5]])
+print(firstenplayers[2:6])
+
+#access by index
+pl_ratings = pd.read_csv(p, usecols=["player", "rating"], index_col = "player", squeeze=True);
+pl_ratings = pl_ratings.head(10)
+print(pl_ratings["L. Messi", "Neymar Jr"]) #generating a new series
