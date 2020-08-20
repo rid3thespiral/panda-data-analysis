@@ -28,9 +28,17 @@ fifa_names_series = pd.read_csv(p, usecols=["player"], squeeze= True) #extractin
 #output in csv file
 fifa_names.to_csv("prova.csv", index=False)
 
-fifa_names.head(10) #extract first N lines
+firstenplayers= fifa_names_series.head(10) #extract first N lines
 fifa_names.tail(10) #extract last N lines
 fifa_names_firsts = pd.read_csv(p, nrows=5) #great datasets
 
 fifa_names_series.sort_values(axis=0, ascending=False, inplace=False, kind='quicksort', ignore_index=False) #sorting by values
-fifa_names_series.sort_index(ascending=False, )
+fifa_names_series.sort_index(ascending=False)
+
+print(fifa_names_series.value_counts(normalize=False, sort=True, ascending=False)) #counting occurences
+
+fifa_ratings = pd.read_csv(p, usecols=["rating"],squeeze=True)
+print(fifa_ratings.value_counts(bins = 5)) #divides data in subgroups
+
+#extracting values by position
+print(firstenplayers[0])
