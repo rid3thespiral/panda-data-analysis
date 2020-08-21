@@ -51,3 +51,12 @@ print(nba.set_index("FULLNAME", drop= True, inplace=True))
 
 #reset index on the dataframe
 nba.reset_index(drop=False, inplace=False)
+
+#removing columns with drop columns and labels
+nba.drop(columns = ["GP", "POS"])
+nba.drop(labels = ["GP", "POS"], axis=1)
+nba.drop(index = "BamAdebayo", inplace = True) #remove one row
+nba.drop(labels = "GraysonAllen", inplace = True)
+
+#adding columns NAZIONE with value USA
+nba.insert(loc=2, column=" NAZIONE ", value="USA")
