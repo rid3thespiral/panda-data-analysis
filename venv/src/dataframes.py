@@ -72,3 +72,65 @@ print(nba.loc[["AlHorford", "VinceCarter"],["GP", "PPG"]]) #returns a Dataframe 
 print(nba.iloc[[0,3,5]]) #index position
 print(nba.iloc[0:10]) #slicing by number index
 print(nba.iloc[0, [3,4]]) #age and minutes by Aaron Gordon
+
+#filter by condition Los Angeles Lakers
+mask = nba["TEAM"] == "Lal"
+print(nba[mask])
+#filter by points
+mask2 = nba["PPG"]>25
+print(nba[mask2])
+#filter by non-guard players
+mask3 = nba["POS"] != "G"
+print(nba[mask3])
+
+#combining two or moremasks
+mask1 = nba["AGE"] > 20
+mask2 = nba["AGE"] < 25
+mask3 = nba["TEAM"] == "Lal"
+mask4 = nba["TEAM"] == "Bos"
+print(nba[mask1 & mask2]["TEAM"])
+print(nba[mask3 | mask4]) #players lal or bos
+mask5 = nba["PPG"] > 20
+print(nba[(mask3 | mask4) & mask5])
+
+#between instead of masks
+mask= nba["AGE"].between(18,20)
+print(nba[mask])
+
+mask= nba["PPG"].between(30,35)
+print(nba[mask])
+
+#isin, isnull and notnull on series
+mask = nba["TEAM"].isin(["Atl", "Chi", "Bos"])
+print(nba[mask])
+
+#notnull and isnull for Nan values
+
+#apply method for applying functions
+
+def age(num):
+    if num > 31:
+        return "vecchio"
+    elif num < 21:
+        return "rookie"
+    else:
+        return "normale"
+
+mask = nba["AGE"].apply(age)
+nba["sel"] = mask
+print(nba)
+
+def titolare(riga):
+    età = riga[3]
+    minuti = riga[5]
+    partite = riga[6]
+
+    if(età < 25 and minuti > 20 and partite > 5):
+        return "giovane titolare"
+mask = nba.apply(titolare, axis=1)
+nba["tit"] = mask
+print(nba)
+
+
+
+

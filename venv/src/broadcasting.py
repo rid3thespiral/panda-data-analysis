@@ -10,5 +10,5 @@ print(s1+s2)
 s3 = pd.Series(data = [4,5,6,9])
 print(s1+s3) #with NaN broadcasting
 
-print(s3 * 5) #element-wise operation
+print(s3*5) #element-wise operation
 
