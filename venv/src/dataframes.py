@@ -60,3 +60,15 @@ nba.drop(labels = "GraysonAllen", inplace = True)
 
 #adding columns NAZIONE with value USA
 nba.insert(loc=2, column=" NAZIONE ", value="USA")
+
+#extract rows by index, loc method
+nba.sort_index(inplace = True)
+nba.loc["ZionWilliamson"]
+nba.loc["AaronHoliday": "AlexCaruso"] #slicing by labels
+
+print(nba.loc["AlHorford","POS"])
+print(nba.loc["AlHorford",["GP", "PPG"]])
+print(nba.loc[["AlHorford", "VinceCarter"],["GP", "PPG"]]) #returns a Dataframe object
+print(nba.iloc[[0,3,5]]) #index position
+print(nba.iloc[0:10]) #slicing by number index
+print(nba.iloc[0, [3,4]]) #age and minutes by Aaron Gordon
