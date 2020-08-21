@@ -131,6 +131,18 @@ mask = nba.apply(titolare, axis=1)
 nba["tit"] = mask
 print(nba)
 
+#methods map e applymap
+nba["POS"]=nba["POS"].map({ "C" : "Centro", "C-F": "Ala Grande", "G" : "Guardia"})
+print(nba["POS"])
+#applymap function on dataframe element by element
+
+print(nba.applymap(lambda x: len(str(x)) ))
+
+#methods astype to work on big files
+#reducing df size by 25%
+nba["AGE"]=nba["AGE"].astype("int8")
+nba["GP"]=nba["GP"].astype("int8")
+nba["MPG"]= nba["MPG"].astype("float32")
 
 
 
