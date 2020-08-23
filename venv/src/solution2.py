@@ -19,6 +19,7 @@ print(nba["PPG"].hasnans)
 print(nba.sort_values(axis=0,by="PPG",ascending=False).head(10))
 
 nba["TOT"] = nba["PPG"] * nba["GP"]
+
 print(nba.iloc[-1][2])
 print(nba.iloc[0][2])
 
@@ -32,7 +33,7 @@ maskt3 = "Lal"
 maskt4 = "Lac"
 mask = nba["TEAM"].isin([maskt1, maskt2, maskt3, maskt4])
 nba2 = nba[mask]
-print(nba2["AGE"].between(25,30))
+print(nba2["AGE"].between(25, 30))
 
 mvpc = nba["PPG"] + nba["APG"] + nba["RPG"]
 mvpc_sorted = mvpc.sort_values(axis=0, ascending=False, inplace=False, kind='quicksort')
