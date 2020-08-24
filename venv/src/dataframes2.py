@@ -15,3 +15,12 @@ print(titanic.where(titanic["Pclass"] == 1))
 print(titanic.where(titanic["Pclass"] == 1, other = 'Falso'))
 #query needs a string to be evaluated, dropping Nan rows (same output as first point)
 print(titanic.query("Pclass == 1"))
+
+#aggregation agg() - custom stats
+titanic.describe(include = "all")
+
+print(titanic.agg("max"))
+print(titanic.agg(["max", "min"]))
+
+#use it with dictionaries
+print(titanic.agg(({"Fare": "max", "Age":["max", "min", "mean"]})))
