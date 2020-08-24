@@ -24,3 +24,10 @@ print(titanic.agg(["max", "min"]))
 
 #use it with dictionaries
 print(titanic.agg(({"Fare": "max", "Age":["max", "min", "mean"]})))
+
+#copy method
+print(titanic["Age"])
+
+age = titanic["Age"].copy()
+age[0] = 1000;
+print(age[0] == titanic["Age"][0], "Disjoint copy")
