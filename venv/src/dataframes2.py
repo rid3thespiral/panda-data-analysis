@@ -31,3 +31,21 @@ print(titanic["Age"])
 age = titanic["Age"].copy()
 age[0] = 1000;
 print(age[0] == titanic["Age"][0], "Disjoint copy")
+
+#names copy, string functions
+nomi = titanic["Name"].head(10).copy()
+stringa = "My name is Jack"
+print(stringa.upper())
+print(nomi.str.upper())
+print(nomi.str.lower())
+print(nomi.str.title())
+print(nomi.str.len())
+print(nomi.str.contains("Mr")) #returns boolean values
+#filtering
+print(nomi[nomi.str.contains("Mr")])
+
+#normalize
+nomi.str.lower().contains("mrs")
+#not normalize
+nomi.str.lower().str.contains("mrs", case = False)
+
