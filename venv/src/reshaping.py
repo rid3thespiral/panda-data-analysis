@@ -1,8 +1,8 @@
 import pandas as pd
 from pathlib import Path
 
-p = str(Path(__file__).parents[2])+"/materials/titanic.csv"
-titanic = pd.read_csv(p)
+pt = str(Path(__file__).parents[2])+"/materials/titanic.csv"
+titanic = pd.read_csv(pt)
 
 #transpose method
 print(titanic.T)
@@ -14,14 +14,14 @@ titanic.T.info()
 titanic.T.T.info() #object dtypes
 
 #stack() and unstack()
-titanic = pd.read_csv(p, index_col = "Name", usecols = ["Name", "Pclass", "Sex", "Age"])
+titanic = pd.read_csv(pt, index_col = "Name", usecols = ["Name", "Pclass", "Sex", "Age"])
 print(titanic)
 
 #stack(): takes colnames and put as index (Multi-index) from 891*3 -> 3*839*1
 print(titanic.stack(dropna=True))
 
 #unstack(): stack opposite()
-titanic = pd.read_csv(p, index_col = ["Pclass", "Name"], usecols = ["Name", "Pclass", "Sex", "Age"]).head()
+titanic = pd.read_csv(pt, index_col = ["Pclass", "Name"], usecols = ["Name", "Pclass", "Sex", "Age"]).head()
 print(titanic.unstack(level = 0))
 
 #melt(): wide to long transformation
@@ -72,5 +72,20 @@ print(centenari.loc[(slice(None), "100 anni e più"), :].sort_values(by="Value",
 #same
 centenari2 = centenari.pivot_table(index=["Territorio", "Età"], values="Value", aggfunc="sum")
 print(centenari2.loc[(slice(None), "100 anni e più"), :])
+
+#groupby() part 2
+titanic = pd.read_csv(pt)
+print(titanic.head())
+
+#split - step1
+titanic.groupby(by = "Sex")
+#apply and combine - step2
+print(titanic.groupby(by = "Sex").agg({"Age": ["mean", "min", "max"]}))
+#another example
+print(titanic.groupby(by = "Sex").agg({"Age": ["mean", "min", "max"], "Fare": "mean"}))
+#same stats but grouped by sex and class - step1 split
+titanic.groupby(by = ["Sex", "Pclass"])
+print(titanic.groupby(by = ["Sex", "Pclass"]).agg({"Age": ["mean", "min", "max"], "Fare": "mean"})) #apply and combine
+
 
 

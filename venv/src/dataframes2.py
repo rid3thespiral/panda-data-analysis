@@ -45,7 +45,22 @@ print(nomi.str.contains("Mr")) #returns boolean values
 print(nomi[nomi.str.contains("Mr")])
 
 #normalize
-nomi.str.lower().contains("mrs")
+nomi.str.lower().str.contains("mrs")
 #not normalize
 nomi.str.lower().str.contains("mrs", case = False)
+
+#operations with strings
+#startswith()
+nomi.str.startswith("A")
+#replace
+nomi.str.replace("Mr.", "Mister", regex=False)
+#split() and get()
+print(nomi.str.split(","))
+#obtaining surname
+print(nomi.str.split(",").str.get(0))
+print(nomi.str.split(",", expand=True))
+
+
+
+
 

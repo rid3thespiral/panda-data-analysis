@@ -18,3 +18,4 @@ print(nba.loc[("C", "G"), "Atl", :]) #slicing on all rows
 print(nba.loc[(slice(None), slice("Atl")), :])
 #using lists like dataframes
 print(nba.loc[pd.IndexSlice[:, "Atl"], :])
+
