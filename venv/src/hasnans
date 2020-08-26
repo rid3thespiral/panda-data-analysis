@@ -1,0 +1,787 @@
+FULLNAME,PPG
+StevenAdams,10.9
+BamAdebayo,16.2
+LaMarcusAldridge,18.9
+NickeilAlexander-Walker,5.1
+GraysonAllen,7.4
+JarrettAllen,10.6
+KadeemAllen,5.0
+Al-FarouqAminu,4.3
+JustinAnderson,1.0
+KyleAnderson,5.7
+RyanAnderson,2.5
+GiannisAntetokounmpo,29.6
+KostasAntetokounmpo,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+ThanasisAntetokounmpo,2.5
+CarmeloAnthony,15.3
+OGAnunoby,10.7
+RyanArcidiacono,4.5
+TrevorAriza,6.0
+TrevorAriza,11.0
+D.J.Augustin,10.4
+DeandreAyton,19.0
+DwayneBacon,5.7
+MarvinBagleyIII,14.2
+LonzoBall,12.4
+MoBamba,5.5
+J.J.Barea,7.5
+HarrisonBarnes,14.7
+RJBarrett,14.3
+WillBarton,15.1
+KeitaBates-Diop,6.8
+KeitaBates-Diop,3.5
+NicolasBatum,3.6
+AronBaynes,11.5
+KentBazemore,7.9
+KentBazemore,10.3
+DariusBazley,4.5
+BradleyBeal,30.6
+MalikBeasley,7.9
+MalikBeasley,20.7
+MarcoBelinelli,5.8
+JordanBell,3.1
+JordanBell,5.0
+DeAndre'Bembry,5.8
+DraganBender,3.7
+DraganBender,9.0
+DavisBertans,15.4
+PatrickBeverley,7.9
+KhemBirch,3.8
+GogaBitadze,3.1
+BismackBiyombo,7.4
+NemanjaBjelica,11.9
+EricBledsoe,15.4
+BojanBogdanovic,20.2
+BogdanBogdanovic,14.5
+JonahBolden,1.0
+JonahBolden,2.0
+MarquesBolden,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+JordanBone,1.2
+IsaacBonga,4.6
+DevinBooker,26.1
+ChrisBoucher,6.3
+BrianBowenII,0.8
+KyBowman,7.4
+AveryBradley,8.6
+TonyBradley,4.7
+JarrellBrantley,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+IgnasBrazdeikis,1.9
+MilesBridges,13.0
+MikalBridges,8.7
+OshaeBrissett,1.9
+RyanBroekhoff,4.2
+MalcolmBrogdon,16.3
+DillonBrooks,15.7
+CharlesBrownJr.,2.0
+TroyBrownJr.,9.7
+BruceBrown,8.9
+JaylenBrown,20.4
+MosesBrown,1.2
+SterlingBrown,5.0
+JalenBrunson,8.2
+ThomasBryant,12.1
+ReggieBullock,8.1
+TreyBurke,5.9
+AlecBurks,16.1
+AlecBurks,10.7
+DeonteBurton,2.8
+JimmyButler,20.2
+BrunoCaboclo,2.8
+BrunoCaboclo,2.0
+KentaviousCaldwell-Pope,9.5
+VlatkoCancar,1.2
+ClintCapela,13.9
+DeMarreCarroll,2.2
+DeMarreCarroll,6.7
+WendellCarterJr.,11.3
+JevonCarter,4.6
+VinceCarter,5.0
+MichaelCarter-Williams,7.2
+AlexCaruso,5.4
+WillieCauley-Stein,7.9
+WillieCauley-Stein,5.2
+TysonChandler,1.3
+WilsonChandler,5.9
+JoeChealey,0.5
+ZylanCheatham,1.3
+ChrisChiozza,2.7
+ChrisChiozza,5.2
+MarqueseChriss,9.3
+BrandonClarke,12.0
+GaryClark,3.9
+GaryClark,2.5
+JordanClarkson,14.6
+JordanClarkson,15.6
+NicolasClaxton,4.4
+ChrisClemons,4.9
+AntoniusCleveland,0.8
+AmirCoffey,2.2
+JohnCollins,21.6
+ZachCollins,9.0
+MikeConley,13.8
+PatConnaughton,5.1
+QuinnCook,4.8
+TylerCook,1.7
+RobertCovington,12.8
+RobertCovington,12.8
+AllenCrabbe,5.1
+AllenCrabbe,3.2
+TorreyCraig,5.0
+JaeCrowder,9.9
+JaeCrowder,11.9
+JarrettCulver,9.2
+SethCurry,12.6
+StephenCurry,20.8
+TroyDaniels,4.2
+TroyDaniels,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+AnthonyDavis,26.7
+EdDavis,1.3
+TerenceDavis,7.7
+DewayneDedmon,5.1
+DewayneDedmon,8.1
+MatthewDellavedova,3.1
+DeMarDeRozan,22.1
+CheickDiallo,4.8
+HamidouDiallo,6.1
+GorguiDieng,7.4
+GorguiDieng,7.3
+SpencerDinwiddie,20.6
+DonteDiVincenzo,9.4
+LukaDoncic,28.7
+LuguentzDort,6.2
+DamyeanDotson,6.7
+SekouDoumbouya,6.4
+PJDozier,4.1
+GoranDragic,16.1
+AndreDrummond,17.8
+AndreDrummond,17.5
+JaredDudley,1.5
+KrisDunn,7.3
+CarsenEdwards,3.0
+HenryEllenson,0.4
+WayneEllington,5.1
+JoelEmbiid,23.4
+JamesEnnisIII,5.8
+JamesEnnisIII,6.8
+DrewEubanks,3.6
+JacobEvans,4.7
+JacobEvans,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+DanteExum,2.2
+DanteExum,5.6
+TackoFall,3.2
+DerrickFavors,9.2
+CristianoFelicio,3.9
+TerranceFerguson,4.2
+BrunoFernando,4.3
+YogiFerrell,4.2
+DorianFinney-Smith,9.3
+BrynForbes,11.2
+EvanFournier,18.8
+De'AaronFox,20.4
+MelvinFrazierJr.,1.2
+MichaelFrazier,1.8
+TimFrazier,3.6
+MarkelleFultz,12.1
+WenyenGabriel,1.7
+WenyenGabriel,2.4
+DanielGafford,5.1
+DaniloGallinari,19.2
+LangstonGalloway,10.2
+DariusGarland,12.3
+MarcGasol,7.6
+RudyGay,10.0
+PaulGeorge,21.0
+TajGibson,6.1
+HarryGilesIII,7.0
+ShaiGilgeous-Alexander,19.3
+RudyGobert,15.1
+BrandonGoodwin,6.1
+AaronGordon,14.4
+EricGordon,14.5
+Devonte'Graham,18.2
+TreveonGraham,5.2
+TreveonGraham,3.3
+JeramiGrant,11.6
+JoshGray,1.0
+DannyGreen,8.2
+DraymondGreen,8.0
+JaMychalGreen,6.5
+JavonteGreen,2.9
+JeffGreen,7.8
+JeffGreen,10.4
+BlakeGriffin,15.5
+MarkoGuduric,4.0
+KyleGuy,1.0
+RuiHachimura,13.4
+DevonHall,1.0
+DontaHall,1.5
+DustyHannahs,6.0
+TimHardawayJr.,15.8
+JamesHarden,34.4
+MauriceHarkless,5.5
+MauriceHarkless,6.8
+JaredHarper,0.7
+MontrezlHarrell,18.6
+GaryHarris,10.4
+JoeHarris,13.9
+ShaquilleHarrison,4.9
+TobiasHarris,19.4
+IsaiahHartenstein,4.7
+JoshHart,10.2
+UdonisHaslem,1.7
+JaxsonHayes,7.5
+GordonHayward,17.3
+JohnHenson,5.0
+JohnHenson,6.9
+DewanHernandez,1.0
+JuanchoHernangomez,3.1
+JuanchoHernangomez,12.9
+WillyHernangomez,6.1
+TylerHerro,12.9
+KevinHervey,0.3
+MarioHezonja,4.8
+BuddyHield,19.8
+GeorgeHill,9.6
+SolomonHill,5.7
+SolomonHill,2.5
+JaylenHoard,2.9
+AaronHoliday,9.4
+JrueHoliday,19.6
+JustinHoliday,8.4
+RondaeHollis-Jefferson,7.2
+RichaunHolmes,12.8
+RodneyHood,11.0
+AlHorford,12.0
+TalenHorton-Tucker,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+DanuelHouseJr.,10.2
+DwightHoward,7.5
+WilliamHoward,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+KevinHuerter,12.2
+De'AndreHunter,12.3
+ChandlerHutchison,7.8
+SergeIbaka,16.0
+AndreIguodala,4.4
+ErsanIlyasova,6.8
+JoeIngles,9.8
+BrandonIngram,24.3
+KyrieIrving,27.4
+JonathanIsaac,12.0
+WesIwundu,5.3
+JarenJacksonJr.,16.9
+FrankJackson,5.6
+JoshJackson,10.4
+JustinJackson,5.7
+ReggieJackson,14.9
+ReggieJackson,9.4
+JustinJames,2.6
+LeBronJames,25.7
+AmileJefferson,0.8
+DaQuanJeffries,1.2
+TyJerome,3.5
+AlizeJohnson,1.4
+BJJohnson,1.6
+CameronJohnson,8.1
+JamesJohnson,5.7
+JamesJohnson,12.0
+KeldonJohnson,4.6
+StanleyJohnson,1.2
+TylerJohnson,5.7
+NikolaJokic,20.2
+DerrickJonesJr.,8.9
+DamianJones,5.6
+TyusJones,7.4
+DeAndreJordan,8.3
+CoryJoseph,6.3
+MfionduKabengele,3.5
+FrankKaminsky,11.0
+EnesKanter,8.2
+LukeKennard,15.8
+MichaelKidd-Gilchrist,4.0
+MichaelKidd-Gilchrist,0.4
+StantonKidd,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+LouisKing,2.0
+MaxiKleber,9.2
+BrandonKnight,4.9
+BrandonKnight,11.6
+KevinKnoxII,6.4
+JohnKonchar,3.4
+FurkanKorkmaz,9.7
+LukeKornet,6.0
+KyleKorver,6.7
+RodionsKurucs,4.2
+KyleKuzma,12.5
+SkalLabissiere,5.8
+JeremyLamb,12.5
+RomeoLangford,2.6
+ZachLaVine,25.5
+VicLaw,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+JakeLayman,9.1
+TJLeaf,2.9
+JalenLecque,2.5
+CourtneyLee,4.5
+DamionLee,12.7
+AlexLen,8.7
+AlexLen,6.6
+KawhiLeonard,26.9
+MeyersLeonard,6.1
+CarisLeVert,17.7
+DamianLillard,28.9
+NassirLittle,3.6
+KevonLooney,3.4
+BrookLopez,11.0
+RobinLopez,5.5
+KevinLove,17.6
+KyleLowry,19.7
+TimotheLuwawu-Cabarrot,6.3
+TreyLyles,6.4
+DarylMacon,0.8
+J.P.Macura,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+JoshMagette,1.5
+IanMahinmi,7.4
+ThonMaker,4.7
+TeranceMann,1.6
+BobanMarjanovic,6.6
+LauriMarkkanen,14.7
+CalebMartin,6.2
+CodyMartin,5.0
+JeremiahMartin,0.7
+KelanMartin,6.4
+FrankMason,2.3
+GarrisonMathews,5.4
+WesleyMatthews,7.5
+PatrickMcCaw,4.6
+CJMcCollum,22.5
+T.J.McConnell,6.5
+JalenMcDaniels,5.6
+DougMcDermott,10.4
+JaValeMcGee,6.8
+RodneyMcGruder,3.2
+AlfonzoMcKinnie,4.6
+JordanMcLaughlin,7.6
+BenMcLemore,9.8
+JordanMcRae,12.8
+JordanMcRae,2.3
+JordanMcRae,11.8
+NicoloMelli,6.8
+De'AnthonyMelton,8.1
+ChimezieMetu,2.9
+KhrisMiddleton,21.1
+EricMika,6.0
+CJMiles,6.4
+MalcolmMiller,0.9
+PaulMillsap,12.0
+PattyMills,11.7
+ShakeMilton,9.5
+DonovanMitchell,24.2
+NazMitrou-Long,4.7
+AdamMokoka,2.9
+MalikMonk,10.3
+MattMooney,0.5
+E'TwaunMoore,8.6
+JaMorant,17.6
+JuwanMorgan,1.2
+MarcusMorrisSr.,19.6
+MarcusMorrisSr.,9.5
+MarkieffMorris,11.0
+MarkieffMorris,4.8
+MonteMorris,8.4
+JohnathanMotley,2.2
+EmmanuelMudiay,7.3
+MychalMulder,11.0
+DejounteMurray,10.7
+JamalMurray,18.8
+DzananMusa,4.2
+MikeMuscala,4.6
+SviMykhailiuk,9.0
+AbdelNader,6.0
+LarryNanceJr.,10.1
+ShabazzNapier,9.6
+ShabazzNapier,12.0
+RaulNeto,4.3
+MalikNewman,2.0
+GeorgesNiang,5.8
+NerlensNoel,7.7
+ZachNorvellJr.,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+ZachNorvellJr.,3.3
+JaylenNowell,3.8
+FrankNtilikina,6.3
+KendrickNunn,15.6
+DavidNwaba,5.2
+SemiOjeleye,3.1
+JahlilOkafor,7.6
+ElieOkobo,4.0
+JoshOkogie,8.6
+KZOkpala,1.4
+VictorOladipo,13.8
+KellyOlynyk,7.7
+RoyceO'Neale,6.3
+MiyeOni,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+KyleO'Quinn,3.3
+CediOsman,11.0
+KellyOubreJr.,18.7
+TariqOwens,1.3
+JeremyPargo,8.3
+JabariParker,15.0
+JabariParker,4.0
+ChandlerParsons,2.8
+EricPaschall,14.0
+AnzejsPasecniks,6.3
+PatrickPatterson,4.6
+JustinPatton,1.8
+ChrisPaul,17.7
+GaryPaytonII,3.9
+ElfridPayton,10.0
+NorvelPelle,2.1
+TheoPinson,3.6
+MasonPlumlee,7.2
+JakobPoeltl,5.3
+VincentPoirier,1.9
+ShamoriePonds,2.3
+JordanPoole,8.8
+KevinPorterJr.,10.0
+MichaelPorterJr.,7.5
+OttoPorterJr.,11.9
+BobbyPortis,10.1
+KristapsPorzingis,19.2
+DwightPowell,9.4
+NormanPowell,16.4
+TaureanPrince,12.1
+ChassonRandle,1.7
+JuliusRandle,19.5
+JoshReaves,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+CamReddish,10.5
+JJRedick,14.9
+NazReid,9.0
+JoshRichardson,13.8
+AustinRivers,8.5
+GlennRobinsonIII,12.9
+GlennRobinsonIII,7.4
+DuncanRobinson,13.3
+JeromeRobinson,2.9
+JeromeRobinson,6.1
+JustinRobinson,1.4
+MitchellRobinson,9.7
+IsaiahRoby,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+RajonRondo,7.1
+DerrickRose,18.1
+TerrenceRoss,14.8
+TerryRozier,18.0
+RickyRubio,13.1
+D'AngeloRussell,23.6
+D'AngeloRussell,21.7
+DomantasSabonis,18.5
+LukaSamanic,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+JaKarrSampson,4.2
+DarioSaric,10.1
+TomasSatoransky,9.9
+AdmiralSchofield,3.1
+DennisSchroder,19.0
+MikeScott,5.7
+ThaboSefolosha,2.2
+CollinSexton,20.8
+LandryShamet,9.7
+MarialShayok,1.5
+ImanShumpert,4.2
+PascalSiakam,23.6
+ChrisSilva,2.9
+BenSimmons,16.7
+AnferneeSimons,8.8
+AlenSmailagic,4.2
+MarcusSmart,13.5
+DennisSmithJr.,5.5
+IshSmith,10.5
+ZhaireSmith,1.1
+TonySnell,8.0
+OmariSpellman,7.6
+MaxStrus,2.5
+EdmondSumner,4.6
+CalebSwanigan,0.7
+CalebSwanigan,3.0
+JaysonTatum,23.6
+JeffTeague,13.2
+JeffTeague,7.7
+GarrettTemple,10.3
+DanielTheis,9.3
+IsaiahThomas,12.2
+KhyriThomas,2.1
+MattThomas,4.5
+TristanThompson,12.0
+MatisseThybulle,4.7
+AnthonyTolliver,3.9
+AnthonyTolliver,1.0
+AnthonyTolliver,5.4
+JuanToscano-Anderson,5.3
+Karl-AnthonyTowns,26.5
+GaryTrentJr.,7.7
+AllonzoTrier,6.5
+P.J.Tucker,7.1
+RayjonTucker,1.4
+EvanTurner,3.3
+MylesTurner,11.8
+JarrodUthoff,1.0
+JonasValanciunas,14.9
+DenzelValentine,6.8
+JarredVanderbilt,1.1
+JarredVanderbilt,1.0
+FredVanVleet,17.6
+GabeVincent,2.0
+NoahVonleh,4.1
+NoahVonleh,2.0
+NikolaVucevic,19.5
+DeanWade,1.7
+MoritzWagner,9.5
+DionWaiters,9.3
+LonnieWalkerIV,5.7
+KembaWalker,21.2
+TyroneWallace,2.9
+DerrickWaltonJr.,2.2
+DerrickWaltonJr.,1.0
+BradWanamaker,6.6
+T.J.Warren,18.7
+P.J.Washington,12.2
+YutaWatanabe,1.9
+TremontWaters,3.3
+PaulWatson,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+PaulWatson,0.3
+QuinndaryWeatherspoon,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+RussellWestbrook,27.5
+CobyWhite,13.2
+DerrickWhite,10.4
+HassanWhiteside,16.3
+AndrewWiggins,22.4
+AndrewWiggins,19.4
+RobertWilliamsIII,4.3
+NigelWilliams-Goss,0.4
+GrantWilliams,3.5
+JohnathanWilliams,3.2
+KenrichWilliams,3.8
+LouWilliams,18.7
+MarvinWilliams,6.7
+MarvinWilliams,4.0
+ZionWilliamson,23.6
+D.J.Wilson,3.2
+JustiseWinslow,11.3
+ChristianWood,13.1
+DelonWright,7.3
+JustinWright-Foreman,"<bound method Series.mean of FULLNAME
+StevenAdams                10.9
+BamAdebayo                 16.2
+LaMarcusAldridge           18.9
+NickeilAlexander-Walker     5.1
+GraysonAllen                7.4
+                           ... 
+ThaddeusYoung              10.3
+TraeYoung                  29.6
+CodyZeller                 11.1
+AnteZizic                   4.4
+IvicaZubac                    8
+Name: PPG, Length: 570, dtype: object>"
+ThaddeusYoung,10.3
+TraeYoung,29.6
+CodyZeller,11.1
+AnteZizic,4.4
+IvicaZubac,8.0
